@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <title>Voting India - Registratrion</title>
+        <link rel="stylesheet" href="../CSS/register.css">
+    </head>
+    <body>
+        <center>
+            <!-- <img class="bg" src="register1.jpg" alt=""> -->
+            <div id="headerSection">
+            <h1>Online Voting System</h1>  
+            </div>
+
+            <h2>Registration</h2>
+                <form action="../api/register.php" method="POST" enctype="multipart/form-data">
+                    <input type="text" name="name" placeholder="Name" required>&nbsp
+                    <input type="number" name="mob" placeholder="Mobile/Voter-ID" required><br><br>
+                    <input type="password" name="pass" placeholder="Password" required>&nbsp
+                    <input type="password" name="cpass" placeholder="Confirm Password" required><br><br>
+                    <input style="width: 40%" type="text" name="add" placeholder="Address" required><br><br>
+                    <div id="upload" style="width: 30%">
+                        Upload image: <input type="file" id="profile" name="image" required>
+                    </div><br>
+                    <div id="upload" style="width: 30%">
+                        Select your role:
+                        <select name="role">
+                            <option value="1">Voter</option>
+                            <option value="2">Group</option>
+                        </select><br>                   
+                    </div><br>
+                    <button id="loginbtn" type="submit" name="registerbtn">Register</button><br><br>
+                    <strong>Already user? </strong><a href="../index.html"><u>Login here</u></a>
+                </form>
+            </center>
+    </body>
+</html>

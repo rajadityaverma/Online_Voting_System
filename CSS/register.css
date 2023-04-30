@@ -1,0 +1,89 @@
+input {
+    padding: 10px;
+    border-radius: 5px;
+    width: 30%;
+  } 
+
+  select {
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  #upload {
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid black;
+    background: white;
+    height: 37;
+
+  }
+  
+  #headerSection {
+    padding: 10px;
+    font-family: Cursive;
+    background:#2f3542;
+    font-weight: bold;
+    text-decoration:wavy;
+  }
+
+  h1{
+    color:#dfe4ea;
+    font-style:oblique;
+  }
+  h2{
+    color:#2c2c54;
+    font-style: italic;
+  }
+  
+ 
+  body {
+    background-image: url('register1.jpg');
+    background-size: cover;
+    opacity: 1;
+    margin: 0px;
+    padding: 0px;
+
+  }
+  
+  #loginbtn {
+    padding: 5px;
+    font-size: 15px;
+    background-color: #e55039;
+    color: white;
+    font-style: normal;
+    border-radius: 5px;
+    height: 45px;
+    width: 70px;
+    cursor: pointer;
+    
+  }
+  
+  #reglink {
+    padding: 5px;
+    font-size: 15px;
+    background-color: #3498db;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    
+  }
+  
+  a {
+    text-decoration: none;
+    font-weight: bold;
+  }
+  .voting h1{
+    color: #2c2c54;
+    font-style:italic;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 100px;
+  } 
+
+  strong{
+    color: white;
+  }
+  u{
+    color: blue;
+  }
+
+  

@@ -1,0 +1,94 @@
+#backbtn{
+    padding: 5px;
+    font-size: 15px;
+    color: white;
+    font-style: normal;
+    background: #3498db;
+    border-radius: 5px;
+    height: 40px;
+    width: 70px;
+    float:left;
+    margin-left:50px;
+    margin-top:20px;
+    cursor: pointer;
+}
+#logoutbtn{
+    padding: 10px;
+    font-size: 15px;
+    color: white;
+    background: #3498db;
+    font-style: normal;
+    border-radius: 5px;
+    height: 40px;
+    width: 70px;
+    float:right;
+    margin-right:50px;
+    margin-top:20px;
+    cursor: pointer;
+}
+h1{
+    margin-top: 20px;
+    text-align:center;
+    font-weight:bold;
+    color:white;
+    font-style:italic;
+}
+#Profile{
+    background-image:url('../css/flag.jpg');
+    background-size: 450px 390px;
+    padding:20px;
+    width:60%;
+    margin-left:20px;
+    margin-top:50px;
+    float:left;
+}
+#Group{
+    background: grey;
+    padding:20px;
+    width: 115%;
+    margin-right:-650px;
+    margin-top:50px;
+    float:right;
+    /* background-image:url('../css/flag.jpg'); */
+}
+img{
+    border: 2px solid black;
+}
+#headerSection{
+    min-width:200%;
+    
+
+}
+#votebtn{
+    padding: 5px;
+    font-size: 15px;
+    color: white;
+    font-style: normal;
+    background: green;
+    border-radius: 5px;
+    height: 40px;
+    width: 70px;
+    cursor: pointer;
+
+}
+#voted{
+    padding: 5px;
+    font-size: 15px;
+    color: white;
+    font-style: normal;
+    background: red;
+    border-radius: 5px;
+    height: 40px;
+    width: 70px;
+
+}
+#killer{
+    color:Blue;
+    font-style:italic;
+    font-size:20px;
+}
+#miller{
+    color:black;
+    font-style:italic;
+    font-size:20px;
+}
